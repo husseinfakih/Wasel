@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\Wasel.Domain\Wasel.Domain.csproj" />
+    <ProjectReference Include="..\Wasel.Infrastructure\Wasel.Infrastructure.csproj" />
+    <ProjectReference Include="..\Wasel.Persistence\Wasel.Persistence.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+</Project>
